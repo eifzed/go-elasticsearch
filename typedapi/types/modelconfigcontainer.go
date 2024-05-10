@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/tasktype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/tasktype"
 )
 
 // ModelConfigContainer type.

@@ -1,13 +1,13 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/bulk/kafka
+module github.com/eifzed/go-elasticsearch/v8/_examples/bulk/kafka
 
 go 1.21
 
 toolchain go1.21.8
 
-replace github.com/elastic/go-elasticsearch/v8 => ../../..
+replace github.com/eifzed/go-elasticsearch/v8 => ../../..
 
 require (
-	github.com/elastic/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
+	github.com/eifzed/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
 	github.com/segmentio/kafka-go v0.4.25
 	go.elastic.co/apm v1.14.0
 )

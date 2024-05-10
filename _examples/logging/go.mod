@@ -1,14 +1,14 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/logging
+module github.com/eifzed/go-elasticsearch/v8/_examples/logging
 
 go 1.21
 
 toolchain go1.21.8
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/eifzed/go-elasticsearch/v8 => ../..
 
 require (
 	github.com/elastic/elastic-transport-go/v8 v8.4.0
-	github.com/elastic/go-elasticsearch/v8 v8.0.0-00010101000000-000000000000
+	github.com/eifzed/go-elasticsearch/v8 v8.0.0-00010101000000-000000000000
 	github.com/rs/zerolog v1.32.0
 )
 

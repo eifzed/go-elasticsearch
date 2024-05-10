@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/gappolicy"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/gappolicy"
 )
 
 // AverageBucketAggregation type.

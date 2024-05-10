@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/versiontype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/versiontype"
 )
 
 // IndexOperation type.

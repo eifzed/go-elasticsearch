@@ -44,8 +44,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
+	"github.com/eifzed/go-elasticsearch/v8"
+	"github.com/eifzed/go-elasticsearch/v8/esapi"
 )
 
 type Article struct {

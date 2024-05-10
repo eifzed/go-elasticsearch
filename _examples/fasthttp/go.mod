@@ -1,13 +1,13 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/fasthttp
+module github.com/eifzed/go-elasticsearch/v8/_examples/fasthttp
 
 go 1.21
 
 toolchain go1.21.8
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/eifzed/go-elasticsearch/v8 => ../..
 
 require (
-	github.com/elastic/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
+	github.com/eifzed/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
 	github.com/valyala/fasthttp v1.34.0
 )
 

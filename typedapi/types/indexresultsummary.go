@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/result"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/result"
 )
 
 // IndexResultSummary type.

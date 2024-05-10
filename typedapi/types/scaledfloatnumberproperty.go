@@ -28,9 +28,9 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/dynamicmapping"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/onscripterror"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/timeseriesmetrictype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/dynamicmapping"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/onscripterror"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/timeseriesmetrictype"
 )
 
 // ScaledFloatNumberProperty type.

@@ -28,9 +28,9 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/dynamicmapping"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/geoorientation"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/geostrategy"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/dynamicmapping"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/geoorientation"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/geostrategy"
 )
 
 // GeoShapeProperty type.

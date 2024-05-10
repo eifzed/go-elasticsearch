@@ -21,8 +21,8 @@
 package puttrainedmodel
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/trainedmodeltype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/trainedmodeltype"
 )
 
 // Response holds the response body struct for the package puttrainedmodel

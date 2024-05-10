@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types"
 )
 
 // AddSearch is a helper function to add a new search to the buffer of the current msearch request.

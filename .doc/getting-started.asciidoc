@@ -18,7 +18,7 @@ To install the latest version of the client, run the following command:
 
 [source,shell]
 --------------------------
-go get github.com/elastic/go-elasticsearch/v8@latest
+go get github.com/eifzed/go-elasticsearch/v8@latest
 --------------------------
 
 Refer to the <<installation>> page to learn more.

@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/licensetype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/licensetype"
 )
 
 // License type.

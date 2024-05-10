@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/accesstokengranttype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/accesstokengranttype"
 )
 
 // Request holds the request body struct for the package gettoken

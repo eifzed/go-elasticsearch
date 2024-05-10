@@ -1,12 +1,12 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/clusterstatus
+module github.com/eifzed/go-elasticsearch/v8/_examples/clusterstatus
 
 go 1.21
 
 toolchain go1.21.8
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/eifzed/go-elasticsearch/v8 => ../..
 
-require github.com/elastic/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
+require github.com/eifzed/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
 
 require (
 	github.com/elastic/elastic-transport-go/v8 v8.4.0 // indirect

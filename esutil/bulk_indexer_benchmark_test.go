@@ -29,8 +29,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esutil"
+	"github.com/eifzed/go-elasticsearch/v8"
+	"github.com/eifzed/go-elasticsearch/v8/esutil"
 )
 
 var mockResponseBody = `{

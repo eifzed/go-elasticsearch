@@ -28,8 +28,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/operator"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/zerotermsquery"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/operator"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/zerotermsquery"
 )
 
 // MatchQuery type.

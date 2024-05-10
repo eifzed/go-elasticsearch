@@ -20,7 +20,7 @@ package genstruct
 import (
 	"bytes"
 	"fmt"
-	"github.com/elastic/go-elasticsearch/v8/internal/build/cmd"
+	"github.com/eifzed/go-elasticsearch/v8/internal/build/cmd"
 	"go/types"
 	"io"
 	"os"
@@ -32,7 +32,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/build/utils"
+	"github.com/eifzed/go-elasticsearch/v8/internal/build/utils"
 )
 
 var (
@@ -56,7 +56,7 @@ func init() {
 		pkgNames = strings.Split(pkgNamesEnv, ",")
 	} else {
 		pkgNames = []string{
-			"github.com/elastic/go-elasticsearch/v8/esapi",
+			"github.com/eifzed/go-elasticsearch/v8/esapi",
 		}
 	}
 

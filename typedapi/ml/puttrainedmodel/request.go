@@ -24,8 +24,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/trainedmodeltype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/trainedmodeltype"
 )
 
 // Request holds the request body struct for the package puttrainedmodel

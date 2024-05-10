@@ -1,14 +1,14 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/instrumentation/opencensus
+module github.com/eifzed/go-elasticsearch/v8/_examples/instrumentation/opencensus
 
 go 1.21
 
 toolchain go1.21.8
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/eifzed/go-elasticsearch/v8 => ../..
 
 require (
 	github.com/elastic/elastic-transport-go/v8 v8.4.0
-	github.com/elastic/go-elasticsearch/v8 v8.0.0-20191002063538-b491ce54d752
+	github.com/eifzed/go-elasticsearch/v8 v8.0.0-20191002063538-b491ce54d752
 	github.com/fatih/color v1.7.0
 	go.elastic.co/apm v1.11.0
 	go.elastic.co/apm/module/apmelasticsearch v1.5.0

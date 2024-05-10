@@ -20,7 +20,7 @@ package esapi_test
 import (
 	"log"
 
-	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/eifzed/go-elasticsearch/v8"
 )
 
 func ExampleResponse_IsError() {

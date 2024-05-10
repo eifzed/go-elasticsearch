@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/scriptlanguage"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/scriptlanguage"
 )
 
 // InlineScript type.

@@ -1,12 +1,12 @@
-module github.com/elastic/go-elasticsearch/v8/internal/build
+module github.com/eifzed/go-elasticsearch/v8/internal/build
 
 go 1.21
 
-replace github.com/elastic/go-elasticsearch/v8 => ../../
+replace github.com/eifzed/go-elasticsearch/v8 => ../../
 
 require (
 	github.com/alecthomas/chroma v0.10.0
-	github.com/elastic/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
+	github.com/eifzed/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
 	github.com/spf13/cobra v1.8.0
 	golang.org/x/crypto v0.19.0
 	golang.org/x/tools v0.19.0

@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/build/utils"
+	"github.com/eifzed/go-elasticsearch/v8/internal/build/utils"
 )
 
 const testCheck = "\t" + `if err != nil {            // SKIP
