@@ -23,7 +23,7 @@ package putmodel
 import (
 	"encoding/json"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/tasktype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/tasktype"
 )
 
 // Response holds the response body struct for the package putmodel

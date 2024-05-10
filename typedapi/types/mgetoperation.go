@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/versiontype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/versiontype"
 )
 
 // MgetOperation type.

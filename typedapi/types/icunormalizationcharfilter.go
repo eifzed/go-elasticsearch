@@ -27,8 +27,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icunormalizationmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icunormalizationtype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/icunormalizationmode"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/icunormalizationtype"
 )
 
 // IcuNormalizationCharFilter type.

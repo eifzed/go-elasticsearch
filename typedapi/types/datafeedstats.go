@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/datafeedstate"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/datafeedstate"
 )
 
 // DatafeedStats type.

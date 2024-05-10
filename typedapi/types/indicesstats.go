@@ -27,8 +27,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/healthstatus"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/indexmetadatastate"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/healthstatus"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/indexmetadatastate"
 )
 
 // IndicesStats type.

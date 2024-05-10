@@ -28,8 +28,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/calendarinterval"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/sortorder"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/calendarinterval"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/sortorder"
 )
 
 // DateHistogramAggregation type.

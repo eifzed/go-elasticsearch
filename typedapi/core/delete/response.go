@@ -21,8 +21,8 @@
 package delete
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/result"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/result"
 )
 
 // Response holds the response body struct for the package delete

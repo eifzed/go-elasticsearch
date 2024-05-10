@@ -1,13 +1,13 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/xkcdsearch
+module github.com/eifzed/go-elasticsearch/v8/_examples/xkcdsearch
 
 go 1.21
 
 toolchain go1.21.8
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/eifzed/go-elasticsearch/v8 => ../..
 
 require (
-	github.com/elastic/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
+	github.com/eifzed/go-elasticsearch/v8 v8.0.0-20210817150010-57d659deaca7
 	github.com/rs/zerolog v1.11.0
 	github.com/spf13/cobra v0.0.3
 	golang.org/x/crypto v0.17.0

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/build/cmd/generate/commands/gensource"
+	"github.com/eifzed/go-elasticsearch/v8/internal/build/cmd/generate/commands/gensource"
 )
 
 func TestGenerator(t *testing.T) {

@@ -21,7 +21,7 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/scriptlanguage"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/scriptlanguage"
 )
 
 // LanguageContext type.

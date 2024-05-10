@@ -50,7 +50,7 @@ test-api:  ## Run generated API integration tests
 ifdef race
 	$(eval testapiargs += "-race")
 endif
-	$(eval testapiargs += "-cover" "-coverpkg=github.com/elastic/go-elasticsearch/v8/esapi" "-coverprofile=$(PWD)/tmp/integration-api.cov" "-tags='integration'" "-timeout=1h")
+	$(eval testapiargs += "-cover" "-coverpkg=github.com/eifzed/go-elasticsearch/v8/esapi" "-coverprofile=$(PWD)/tmp/integration-api.cov" "-tags='integration'" "-timeout=1h")
 ifdef flavor
 else
 	$(eval flavor='free')
@@ -268,9 +268,9 @@ endif
 
 godoc: ## Display documentation for the package
 	@printf "\033[2m→ Generating documentation...\033[0m\n"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v8"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v8/esapi"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v8/esutil"
+	@echo "* http://localhost:6060/pkg/github.com/eifzed/go-elasticsearch/v8"
+	@echo "* http://localhost:6060/pkg/github.com/eifzed/go-elasticsearch/v8/esapi"
+	@echo "* http://localhost:6060/pkg/github.com/eifzed/go-elasticsearch/v8/esutil"
 	@printf "\n"
 	godoc --http=localhost:6060 --play
 

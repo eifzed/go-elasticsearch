@@ -28,8 +28,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/connectionscheme"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/httpinputmethod"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/connectionscheme"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/httpinputmethod"
 )
 
 // HttpInputRequestDefinition type.

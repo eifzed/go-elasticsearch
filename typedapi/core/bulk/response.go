@@ -21,8 +21,8 @@
 package bulk
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/operationtype"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/operationtype"
 )
 
 // Response holds the response body struct for the package bulk

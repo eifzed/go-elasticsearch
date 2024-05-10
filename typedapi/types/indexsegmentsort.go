@@ -27,9 +27,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/segmentsortmissing"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/segmentsortmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/segmentsortorder"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/segmentsortmissing"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/segmentsortmode"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/segmentsortorder"
 )
 
 // IndexSegmentSort type.

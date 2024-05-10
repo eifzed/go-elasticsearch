@@ -28,7 +28,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/noridecompoundmode"
+	"github.com/eifzed/go-elasticsearch/v8/typedapi/types/enums/noridecompoundmode"
 )
 
 // NoriAnalyzer type.

@@ -26,8 +26,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/_examples/fasthttp"
+	"github.com/eifzed/go-elasticsearch/v8"
+	"github.com/eifzed/go-elasticsearch/v8/_examples/fasthttp"
 )
 
 var (
